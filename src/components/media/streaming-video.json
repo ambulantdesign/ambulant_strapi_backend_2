@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_media_streaming_videos",
+  "info": {
+    "displayName": "StreamingVideo",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.youtube-nocookie.com/embed/"
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "show_fullscreen": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "controls": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "related": {
+      "type": "boolean",
+      "default": false
+    },
+    "consent_message": {
+      "type": "richtext"
+    },
+    "videoCaption": {
+      "type": "string"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "urlParams": {
+      "type": "string"
+    },
+    "streamingPlatform": {
+      "type": "enumeration",
+      "enum": [
+        "YouTube",
+        "Vimeo"
+      ],
+      "default": "YouTube",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_seo_twitters",
+  "info": {
+    "displayName": "Twitter",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "card_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

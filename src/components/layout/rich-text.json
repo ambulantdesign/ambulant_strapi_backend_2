@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_layout_rich_texts",
+  "info": {
+    "displayName": "Rich Text",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "marginalTxt": {
+      "type": "richtext"
+    }
+  }
+}

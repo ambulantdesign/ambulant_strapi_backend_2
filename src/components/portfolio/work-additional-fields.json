@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_portfolio_work_additional_fields",
+  "info": {
+    "displayName": "Work Additional Fields",
+    "icon": "list-ol",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string",
+      "required": true,
+      "maxLength": 4,
+      "regex": "^(19|20)[\\d]{2,2}$"
+    },
+    "medium": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "ISBN": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "commissioner": {
+      "type": "string"
+    },
+    "technical_details": {
+      "type": "text"
+    },
+    "info": {
+      "type": "text"
+    },
+    "publisher": {
+      "type": "string"
+    }
+  }
+}

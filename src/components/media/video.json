@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_media_videos",
+  "info": {
+    "displayName": "Video",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "addToSlider": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

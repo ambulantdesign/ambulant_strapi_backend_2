@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "archive_items",
+  "info": {
+    "singularName": "archive-item",
+    "pluralName": "archive-items",
+    "displayName": "ArchiveItem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "sliderImgTxt": {
+      "type": "dynamiczone",
+      "components": [
+        "media.slider-image",
+        "layout.rich-text"
+      ]
+    },
+    "yearStart": {
+      "type": "string",
+      "required": true
+    },
+    "yearEnd": {
+      "type": "string"
+    },
+    "medium": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "Gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}

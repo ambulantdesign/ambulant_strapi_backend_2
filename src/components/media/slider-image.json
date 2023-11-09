@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_media_slider_images",
+  "info": {
+    "displayName": "SliderImage"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

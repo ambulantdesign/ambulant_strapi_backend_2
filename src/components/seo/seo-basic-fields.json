@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_seo_seo_basic_fields",
+  "info": {
+    "displayName": "SeoBasicFields",
+    "icon": "tags"
+  },
+  "options": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
+    }
+  }
+}
