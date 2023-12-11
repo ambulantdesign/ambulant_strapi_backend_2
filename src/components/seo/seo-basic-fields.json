@@ -2,7 +2,8 @@
   "collectionName": "components_seo_seo_basic_fields",
   "info": {
     "displayName": "SeoBasicFields",
-    "icon": "tags"
+    "icon": "tags",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,13 @@
     },
     "seo_description": {
       "type": "text"
+    },
+    "seo_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
