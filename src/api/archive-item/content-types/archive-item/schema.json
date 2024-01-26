@@ -51,6 +51,11 @@
     },
     "city": {
       "type": "string"
+    },
+    "artist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artist.artist"
     }
   }
 }

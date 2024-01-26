@@ -25,6 +25,11 @@
       "type": "uid",
       "targetField": "fullname",
       "required": true
+    },
+    "isInstitution": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
