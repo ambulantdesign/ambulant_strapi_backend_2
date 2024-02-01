@@ -32,7 +32,7 @@
       "relation": "oneToMany",
       "target": "api::keyword.keyword"
     },
-    "featured": {
+    "smallSlider": {
       "type": "boolean",
       "default": false,
       "required": true
