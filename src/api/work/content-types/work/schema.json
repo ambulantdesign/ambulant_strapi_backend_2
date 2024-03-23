@@ -76,6 +76,12 @@
     "productionDate": {
       "type": "date",
       "required": true
+    },
+    "gallery": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::gallery.gallery",
+      "inversedBy": "works"
     }
   }
 }
