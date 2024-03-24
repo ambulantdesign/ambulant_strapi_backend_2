@@ -29,6 +29,10 @@
       "relation": "oneToMany",
       "target": "api::work.work",
       "mappedBy": "gallery"
+    },
+    "colorCode": {
+      "type": "string",
+      "required": true
     }
   }
 }
