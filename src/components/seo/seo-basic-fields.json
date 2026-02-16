@@ -11,14 +11,16 @@
       "type": "string"
     },
     "seo_description": {
-      "type": "text"
+      "type": "text",
+      "default": "Gabriele Götz – studio ambulant design | Amsterdam (The Netherlands)"
     },
     "seo_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

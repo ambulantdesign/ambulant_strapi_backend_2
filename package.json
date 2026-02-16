@@ -1,34 +1,38 @@
 {
   "name": "ambulant-be",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "ambulant design amsterdam CMS",
+  "license": "MIT",
+  "author": {
+    "name": "Gabriele Franziska Götz"
+  },
   "scripts": {
+    "build": "strapi build",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.7.0",
     "@strapi/plugin-users-permissions": "4.7.0",
-    "@strapi/provider-upload-cloudinary": "^4.10.2",
-    "@strapi/strapi": "4.7.0",
-    "@strapi/utils": "^4.10.2",
+    "@strapi/provider-upload-cloudinary": "^4.12.4",
+    "@strapi/strapi": "^4.12.4",
+    "@strapi/utils": "^4.12.4",
     "mysql": "^2.18.1",
     "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0",
-    "strapi-tiptap-editor": "^0.9.12"
-  },
-  "author": {
-    "name": "Gabriele Franziska Götz"
-  },
-  "strapi": {
-    "uuid": "ac03284c-2b4a-4a1b-8094-2092b7d25a5a"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.3.4",
+    "strapi-tiptap-editor": "^0.9.12",
+    "styled-components": "^5.3.11"
   },
   "engines": {
     "node": ">=18.14.0 <19.0.0",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "strapi": {
+    "uuid": "ac03284c-2b4a-4a1b-8094-2092b7d25a5a"
+  }
 }

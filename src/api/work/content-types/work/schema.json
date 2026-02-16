@@ -77,10 +77,10 @@
       "type": "date",
       "required": true
     },
-    "gallery": {
+    "institution": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::gallery.gallery",
+      "target": "api::institution.institution",
       "inversedBy": "works"
     }
   }

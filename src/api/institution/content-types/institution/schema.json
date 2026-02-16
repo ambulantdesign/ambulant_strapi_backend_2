@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "institutions",
+  "info": {
+    "singularName": "institution",
+    "pluralName": "institutions",
+    "displayName": "Institution",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "sortName": {
+      "type": "string",
+      "required": true
+    },
+    "colorCode": {
+      "type": "string",
+      "required": true
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work",
+      "mappedBy": "institution"
+    }
+  }
+}

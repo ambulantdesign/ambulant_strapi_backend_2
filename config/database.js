@@ -16,7 +16,7 @@ module.exports = ({ env }) => ({
     connection: {
       host: env("DATABASE_HOST", "localhost"),
       port: env.int("DATABASE_PORT", 5432),
-      database: env("DATABASE_NAME", "db_ambulantdesign_strapi_backend"),
+      database: env("DATABASE_NAME", "db_ambulantdesign_strapi_backend_01"),
       user: env("DATABASE_USERNAME", "postgres"),
       password: env("DATABASE_PASSWORD", "7J2F3vYBYD2QjAtpA8BslzbzYzg1JBz4"),
       schema: env("DATABASE_SCHEMA", "public"), // Not required
