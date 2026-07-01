@@ -25,6 +25,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^5.3.4",
+    "strapi-provider-upload-imagekit": "^5.11.11",
     "strapi-tiptap-editor": "^0.9.12",
     "styled-components": "^5.3.11"
   },
@@ -34,5 +35,8 @@
   },
   "strapi": {
     "uuid": "ac03284c-2b4a-4a1b-8094-2092b7d25a5a"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.7.0"
   }
 }
